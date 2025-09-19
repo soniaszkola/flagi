@@ -11,6 +11,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/pytanie"
@@ -31,21 +32,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/white"/>
+            android:backgroundTint="@color/white"
+            android:onClick="test"
+            />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/czarny"/>
+            android:backgroundTint="@color/czarny"
+            android:onClick="test2"/>/>
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/niebieski"/>
+            android:backgroundTint="@color/niebieski"
+            android:onClick="test2"/>
 
     </LinearLayout>
 
@@ -59,21 +64,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/czerwony"/>
+            android:backgroundTint="@color/czerwony"
+            android:onClick="test"/>
 
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/zolty" />
+            android:backgroundTint="@color/zolty"
+            android:onClick="test2"/>/>
 
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/zielony" />
+            android:backgroundTint="@color/zielony"
+            android:onClick="test2"/>/>
     </LinearLayout>
 
 </LinearLayout>

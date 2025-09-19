@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">sonia</string>
     <string name="pytanie">Select which colors are not in polish flag?</string>
+    <string name="zla_odpowiedz">Bad answer</string>
+    <string name="brawo">Great!</string>
 </resources>

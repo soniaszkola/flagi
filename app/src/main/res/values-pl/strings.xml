@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">sonia</string>
     <string name="pytanie">Wybierz których kolorów nie ma w fladze Polski</string>
+    <string name="zla_odpowiedz">Zla odpowiedz</string>
+    <string name="brawo">Brawo!</string>
 </resources>
