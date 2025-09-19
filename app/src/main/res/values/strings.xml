@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">sonia</string>
+    <string name="pytanie">Select which colors are not in polish flag?</string>
 </resources>
